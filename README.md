@@ -26,7 +26,7 @@
 
 -Promesas y Asincronismo.
 
--AJAX & Fetch (proximamente).
+-AJAX & Fetch.
 
 -Framworks & NodeJS (proximamente).
 
