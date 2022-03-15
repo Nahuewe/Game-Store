@@ -585,7 +585,7 @@ header a:hover {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	gap: 30px;
+	gap: 10px;
 }
 
 .search {
@@ -595,11 +595,11 @@ header a:hover {
 	font-weight: 400;
 }
 
-
 .consulta-inputs {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	margin-top: 5px;
 }
 
 .consulta-games #field-game {
