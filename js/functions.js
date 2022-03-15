@@ -110,10 +110,10 @@ function prodBox(catGame, tit) {
 				createItem.className = "prod-cart";
 
 				createItem.innerHTML = `
-        <img src="./img/products-img/${storageCart[item].img}" class="cart-game-img"> 
-          <p class="cart-game-name">${storageCart[item].game} </p>
-          <p class="cart-game-price">$${storageCart[item].price}</p>
-        `;
+        		<img src="./img/products-img/${storageCart[item].img}" class="cart-game-img"> 
+          		<p class="cart-game-name">${storageCart[item].game} </p>
+          		<p class="cart-game-price">$${storageCart[item].price}</p>
+        		`;
 
 				let deleteCart = document.createElement("div");
 				deleteCart.className = "delete-item";

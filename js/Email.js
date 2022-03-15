@@ -18,6 +18,3 @@ document.getElementById('form')
 				alert(JSON.stringify(err));
 			});
 	});
-
-
-// Llevo 3 dias tratando de que esto ande, por favor que funcione estoy podrido que feo es jugar a JavaScript
