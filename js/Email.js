@@ -1,20 +1,23 @@
 const btn = document.getElementById('button');
+function actualizar(){location.reload(true);}
 
 document.getElementById('form')
 	.addEventListener('submit', function (event) {
-		event.preventDefault();
+	event.preventDefault();
 
-		btn.value = 'Enviando...';
+	setInterval("actualizar()",4000)
 
-		const serviceID = 'Gmail';
-		const templateID = 'template_yyks7so';
+	btn.value = 'Enviando...';
 
-		emailjs.sendForm(serviceID, templateID, this)
-			.then(() => {
-				btn.value = 'Enviar';
-				alert('Enviado!');
-			}, (err) => {
-				btn.value = 'Enviar de Nuevo';
-				alert(JSON.stringify(err));
-			});
-	});
+	const serviceID = 'Gmail';
+	const templateID = 'template_yyks7so';
+
+	emailjs.sendForm(serviceID, templateID, this)
+		.then(() => {
+			btn.value = 'Enviar';
+			alert('Enviado!');
+		}, (err) => {
+			btn.value = 'Enviar de Nuevo';
+			alert(JSON.stringify(err));
+		});
+});

@@ -249,6 +249,10 @@ header a:hover {
 	cursor: pointer;
 }
 
+.clear-cart:hover {
+	background-color: #df2c18;
+}
+
 /* ===== HOME ===== */
 
 .big-banner {
@@ -870,6 +874,7 @@ footer .container {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 10px;
 }
 
 .info {
@@ -950,6 +955,12 @@ footer .social img {
 	width: 30px;
 	height: 22px;
 	transform: rotate(180deg);
+	transition: all .4s ease-in-out;
+}
+
+.info svg:hover {
+	transform: rotate(0deg)
+
 }
 
 /* ===== ANIMATION TEXT ===== */
