@@ -258,7 +258,7 @@ header a:hover {
 .big-banner {
 	height: calc(100vh - 70px);
 	margin-top: 70px;
-	background: url(../img/bg-main2.jpg) no-repeat top center / cover;
+	background: url(../img/bg-main.jpeg) no-repeat top center / cover;
 	object-fit: cover;
 }
 
@@ -695,8 +695,8 @@ header a:hover {
 /* ===== FORM CONTACTO ===== */
 
 .contacto {
-	background: url(../img/bg-home-shadow1.jpg) center top no-repeat,
-		url(../img/bg-home-shadow.jpg) center top repeat-y #000000;
+	background: url(../img/bg-home-shadow1.jpeg) center top no-repeat,
+		url(../img/bg-home-shadow.jpeg) center top repeat-y #000000;
 	margin: 50px 0 200px;
 	box-shadow: 0 0 10px 4px rgba(000, 000, 000, 0.5);
 }
