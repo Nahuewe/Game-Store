@@ -2,6 +2,10 @@
 
 <p align="center">Trabajo final para el curso de JavaScript en CoderHouse - Camada 28160.</p>
 
+<p align="center">Profesor - Francisco Pugh.</p>
+
+<p align="center">Tutor - German Cuevas.</p>
+
 <h2 align="center">Cosas que he aprendido</h2>
 
 -Uso de Variables.
